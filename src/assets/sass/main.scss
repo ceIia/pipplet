@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$bleu: #0084FF;
+
+$primary: $bleu;
+$footer-background-color: $bleu;
+$family-sans-serif: 'Open Sans', sans-serif;
+
+@import '~bulma/bulma';
+
+.is-centered {
+    text-align: center;
+}
+
+.blue {
+    color: $primary;
+}
